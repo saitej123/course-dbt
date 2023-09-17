@@ -1,0 +1,19 @@
+version: 2
+
+models:
+ - name: stg_postgres__products
+   description: This is dictionary of products 
+   columns:
+    - name: product_id
+      description: Product primary key
+    - name: product_name
+      description: Product name
+    - name: price
+    - name: inventory
+      
+
+ - name: stg_postgres__promos
+ - name: stg_postgres__orders
+ - name: stg_postgres__users
+ - name: stg_postgres__events
+ 
